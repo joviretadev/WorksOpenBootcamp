@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int numeroIf = 3;
         int numeroWhile = 0;
+        int numeroDo = 3;
 
         //Condicional If
         if(numeroIf > 0) {
@@ -17,6 +18,11 @@ public class Main {
             System.out.println(numeroWhile);
             numeroWhile = numeroWhile + 1;
         }
-
+        System.out.println("Finaliza el While");
+        //Bucle doWhile
+        do{
+            System.out.println(numeroDo);
+            numeroWhile = numeroDo -1;
+        }while(numeroDo > 3);
     }
 }
