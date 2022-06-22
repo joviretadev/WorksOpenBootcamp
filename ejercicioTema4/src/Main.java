@@ -22,7 +22,7 @@ public class Main {
         //Bucle doWhile
         do{
             System.out.println(numeroDo);
-            numeroWhile = numeroDo -1;
+            numeroDo = numeroDo -1;
         }while(numeroDo > 3);
     }
 }
