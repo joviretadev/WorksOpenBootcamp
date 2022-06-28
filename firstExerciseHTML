@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+</head>
+<body>
+    <!-- Este es mi primer comentario de dos líneas
+    Aprendiendo a documentar mi código con OpenBootcamp -->
+<style>
+    ul a{
+        text-decoration: none;
+        color: black ;
+        display: inline-block;
+        margin: 5px;
+    }
+     a:hover{
+        color: violet;
+    }
+</style>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=ohdYW3rWdqY">GOLLITO ESTREDO | FREESTALERO EPISODIO 6 ESPAÑA "FUERTEVENTURA"</a></li>
+        <li><a href="https://www.youtube.com/watch?v=PQ52so0Uhoo">NB13 Caesar Finies 2020 Part1</a></li>
+        <li><a href="https://www.youtube.com/watch?v=DyQ6HhUMVh8">WINDSURF PARADISE BONAIRE 2022</a></li>
+    </ul>
+</body>
+</html>
