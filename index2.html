@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<style>
+    div {
+       background-color: gainsboro;
+       width: 50%;
+       height: 30%;
+       border-radius: 5px;
+       padding: 20px;
+    }
+    input{
+        width: 100%;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    input[type=submit]{
+        width: 30%;
+        margin-top: 20px;
+        background-color: plum;
+        font-weight: bold;
+    }
+    input[type=button]{
+        width: 30%;
+        background-color: plum;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div>
+        <form action="/">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+            <label>Edad:</label>
+            <input type="number" name="edad" placeholder="Escribe tu edad">
+            <label>Frase Favorita:</label>
+            <input type="text" name="frase-favorita" placeholder="Escribe tu frase favorita">
+            <input type="submit" value="Envío">
+            <input type="button" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
