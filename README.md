@@ -7,3 +7,5 @@ Go to Intellij idea
 To open the first exercise go to src/Main and run
 
 The others exercises are orderer by his name
+
+To view the exercise from HTML & CSS go to html branch
