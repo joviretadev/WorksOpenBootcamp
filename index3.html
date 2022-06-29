@@ -6,14 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 02/2 - Tablas en HTML</title>
 </head>
+<style>
+    table {
+        width: 100%;
+        background-color: lightcyan;
+        border-radius: 5px;
+        display: block;
+        overflow-x: auto;
+    }
+    th, td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid;
+    }
+</style>
 <body>
     <table>
-        <td>
+        <tr>
             <th>Titulo</th>
             <th>Autor</th>
             <th>Año de publicación</th>
             <th>Enlace a Amazon</th>
-        </td>
+        </tr>
+        <tr>
+            <td>El señor de los anillos</td>
+            <td>J.R.R.Tolkien</td>
+            <td>29 de Julio de 1954</td>
+            <td>https://www.amazon.es/Anillos-Comunidad-Anillo-Biblioteca-Tolkien/dp/8445000667/ref=sr_1_2?keywords=El+Se%C3%B1or+de+los+Anillos&qid=1656524710&sr=8-2</td>
+        </tr>
+        <tr>
+            <td>Arsene Lupin</td>
+            <td>Maurice Leblanc</td>
+            <td>10 de Junio de 1907</td>
+            <td>https://www.amazon.es/Ars%C3%A8ne-Lupin-caballero-ladr%C3%B3n-INFANTIL/dp/8418538503/ref=sr_1_1?keywords=arsene+lupin&qid=1656525197&sprefix=arsene%2Caps%2C91&sr=8-1</td>
+        </tr>
+        <tr>
+            <td>Expediente Annunaki</td>
+            <td>David Velasco</td>
+            <td>8 de Junio de 2017</td>
+            <td>https://www.amazon.es/Expediente-Anunnaki-volumen-David-Velasco/dp/1520477554/ref=sr_1_3?adgrpid=57879858162&gclid=Cj0KCQjw8O-VBhCpARIsACMvVLNZ7SEzhZMa1RnJUFOi_QKHXNDB7mpFt3f9ZmCSpi86pyS_uWJ20DEaAoLJEALw_wcB&hvadid=275531416236&hvdev=c&hvlocphy=1005545&hvnetw=g&hvqmt=e&hvrand=4843338195605872823&hvtargid=kwd-325295387505&hydadcr=1952_1738166&keywords=expediente+anunnaki&qid=1656525540&sr=8-3</td>
+        </tr>
     </table>
     
 </body>
