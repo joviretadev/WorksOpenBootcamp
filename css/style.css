@@ -5,10 +5,13 @@
 ul #elemento-1{
     font-size: 2rem;
 }
-img{
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img{
     width: 300px;
     height: 150px;
-    flex-wrap: wrap;
     border: blue 1px solid;
     border-radius: 5px;
     box-shadow: 3px 3px;
