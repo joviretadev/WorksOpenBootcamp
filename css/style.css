@@ -17,3 +17,19 @@ ul #elemento-1{
     box-shadow: 3px 3px;
     margin: 5px;
 }
+#boton1{
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+#boton1::before{
+    content: "Pasa el raton por encima!";
+}
+.changeButton:hover{
+    background-color: green;
+    color: white;
+
+}
+#boton1:hover::before{
+    content: "Hecho!";
+}
