@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #161717;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.btn-google {
+    background-color: #1F7EE8;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.btn-google:hover {
+    opacity: 0.75;
+}
+.btn-google span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+.btn-google picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-google picture img {
+    width: 80%;
+}
+.btn-twitter {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.btn-twitter picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-twitter picture img {
+    width: 80%;
+}
+.separator {
+    display: flex;
+    width: 70%;
+    gap: 15px;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid white;
+}
+.inputs {
+    display: flex;
+    gap: 10px;
+}
+.inputs label input {
+    width: 80%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span {
+    font-weight: 700;
+}
+label input {
+    width: 90%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+label input:hover {
+    background-color: #454045;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+label input:focus {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+.checkbox input[type="checkbox"]{
+    width: 20px;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox span {
+    font-weight: 400;
+}
+.btnSubmit {
+    background-color: #EA4C89;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14pt;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+.btnSubmit:hover {
+    opacity: 0.75;
+}
